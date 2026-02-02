@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', height: '800px'}}>
       <div style={main}>
-        <img src='/images/main.jpg' alt='메인 이미지' style={mainImg} />
+        <img src={`${process.env.PUBLIC_URL}/images/main.jpg`} alt='메인 이미지' style={mainImg} />
       </div>
       <h1>흑백요리사: 요리 계급 전쟁</h1>
       <div style={{width:'400px', textAlign:'justify', margin:'0 auto 20px'}}>
