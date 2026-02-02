@@ -11,7 +11,7 @@ root.render(
   //   <App />
   // </React.StrictMode>
 
-  <BrowserRouter>
+  <BrowserRouter basename='/test05'>
     <React.StrictMode>
       <App />
     </React.StrictMode>
