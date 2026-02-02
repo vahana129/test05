@@ -21,7 +21,7 @@ function App() {
 
       <header className='header'>
         <NavLink to='/'>
-          <img src="/images/logo.png" alt="메인 로고" />
+          <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="메인 로고" />
         </NavLink>
         <nav className='gnb'>
           <NavLink className='gnb-list' to='/'>소개</NavLink>
