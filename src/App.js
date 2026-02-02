@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import logo from './logo.png'
 import './App.css';
 
 import { Routes, Route, Link, NavLink } from 'react-router-dom';
@@ -21,7 +22,7 @@ function App() {
 
       <header className='header'>
         <NavLink to='/'>
-          <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="메인 로고" />
+          <img src={logo} alt="메인 로고" />
         </NavLink>
         <nav className='gnb'>
           <NavLink className='gnb-list' to='/'>소개</NavLink>
