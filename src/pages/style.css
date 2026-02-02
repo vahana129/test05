@@ -1,0 +1,12 @@
+.about-wrap {
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.person-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
